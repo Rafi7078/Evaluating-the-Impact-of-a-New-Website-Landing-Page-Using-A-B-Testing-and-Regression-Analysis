@@ -1,0 +1,13 @@
+This project analyzes an A/B test to evaluate whether a new landing page improves user conversion compared to the existing page.
+We used two datasets: user interaction data and country information, which were merged for complete analysis.
+First, we cleaned the data by removing invalid entries, duplicates, and inconsistent records.
+Then we performed feature engineering to extract time-based features like hour, weekday, and time period.
+After that, we compared conversion rates between control and treatment groups.
+We used statistical methods like two-proportion z-test, confidence intervals, and simulation testing to validate the results.
+We also checked if the experiment was balanced using sample ratio mismatch testing.
+Next, we built logistic regression models to understand how page type, country, and time factors affect conversion.
+We also analyzed interaction effects between country and landing page.
+The results showed that the new landing page did not significantly improve conversion rate.
+The difference between the two pages was very small and statistically insignificant.
+Finally, we concluded that the old page performs slightly better and should be retained.
+This project helps in data-driven decision making for improving website performance using statistical analysis and machine learning.
